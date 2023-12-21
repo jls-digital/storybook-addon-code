@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
+  "ignorePatterns": ["node_modules/", "dist/", "*.json"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "comma-dangle": "error",
+    "import/extensions": "off",
+    "max-len": "off"
+  }
+}

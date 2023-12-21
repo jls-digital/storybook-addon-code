@@ -1,0 +1,63 @@
+{
+  "name": "@florian.dendorfer_jls.ch/storybook-addon-code",
+  "version": "1.0.0",
+  "description": "This storybook addon provides the ability to display a panel on stories with any code you want.",
+  "exports": {
+    ".": {
+      "import": "./dist/register.js"
+    },
+    "./manager": "./dist/register.js",
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "npm run build -- --watch",
+    "lint": "eslint src/* --ignore-path .gitignore",
+    "lint-fix": "eslint src/ --ignore-path .gitignore --fix",
+    "format": "prettier src/ --check --ignore-path .gitignore",
+    "format-fix": "pnpm format --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jls-digital/storybook-addon-code.git"
+  },
+  "keywords": [
+    "storybook",
+    "addon",
+    "code",
+    "source"
+  ],
+  "author": "jls digital <info@jls.ch>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@storybook/addons": "^7.6.6",
+    "@storybook/api": "^7.6.6",
+    "@storybook/components": "^7.6.6",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/manager": "^7.6.6",
+    "@storybook/preview": "^7.6.6",
+    "@types/react": "^18.2.46",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1"
+  }
+}
