@@ -4,6 +4,8 @@
   "description": "This storybook addon provides the ability to display a panel on stories with any code you want.",
   "exports": {
     ".": {
+      "node": "./dist/register.js",
+      "require": "./dist/register.js",
       "import": "./dist/register.js"
     },
     "./manager": "./dist/register.js",
@@ -11,12 +13,6 @@
   },
   "main": "dist/register.js",
   "type": "module",
-  "files": [
-    "dist/**/*",
-    "README.md",
-    "*.js",
-    "*.d.ts"
-  ],
   "scripts": {
     "build": "tsup",
     "build:watch": "npm run build -- --watch",

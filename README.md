@@ -1,9 +1,9 @@
 # storybook-addon-code
 
-![NPM](https://img.shields.io/npm/l/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)
-![npm](https://img.shields.io/npm/v/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)
-![OSS Lifecycle](https://img.shields.io/osslifecycle/jls-digital/storybook-addon-code)
+[![NPM](https://img.shields.io/npm/l/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://github.com/jls-digital/storybook-addon-code/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://www.npmjs.com/package/@florian.dendorfer_jls.ch/storybook-addon-code)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://bundlephobia.com/package/@florian.dendorfer_jls.ch/storybook-addon-code)
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/jls-digital/storybook-addon-code)](https://github.com/jls-digital/storybook-addon-code)
 
 This storybook addon provides the ability to display a panel on stories with any
 code you want. It's mostly a wrapper for
@@ -59,3 +59,19 @@ Q: When I add a new file to the list of source code, I get an error saying
 
 A: No worries, this is an issue with storybook's TabsState component. You can
 simply reload the page and it should work fine.
+
+## Contribute
+
+Feel free to open issues and pull requests for bugs, feature requests or
+questions. If you want to contribute, please make sure your code is documented
+and linted/formatted.
+
+## Releasing a new version
+
+1. Make sure you have the latest version of the main branch
+2. Make sure you're logged in to npm with `npm whoami`, otherwise log in with
+`npm login`
+3. Run `npm version <major|minor|patch>` to bump the version and create a new
+commit and tag
+4. Push the new commit and tag with `git push --follow-tags` (can also be set
+via config `git config --global push.followTags true`)
