@@ -1,6 +1,6 @@
 export type SourceFile = {
   id?: string;
-  name: string;
+  name?: string;
   code: string;
   language?: string;
 };
