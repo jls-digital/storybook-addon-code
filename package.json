@@ -13,6 +13,7 @@
   },
   "main": "dist/register.js",
   "type": "module",
+  "files": [],
   "scripts": {
     "build": "tsup",
     "build:watch": "npm run build -- --watch",
