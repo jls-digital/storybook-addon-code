@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/l/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://github.com/jls-digital/storybook-addon-code/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://www.npmjs.com/package/@florian.dendorfer_jls.ch/storybook-addon-code)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://bundlephobia.com/package/@florian.dendorfer_jls.ch/storybook-addon-code)
+[![install size](https://packagephobia.com/badge?p=@florian.dendorfer_jls.ch/storybook-addon-code)](https://packagephobia.com/result?p=@florian.dendorfer_jls.ch/storybook-addon-code)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/jls-digital/storybook-addon-code)](https://github.com/jls-digital/storybook-addon-code)
 
 This storybook addon provides the ability to display a panel on stories with any
