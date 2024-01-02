@@ -1,5 +1,10 @@
 # storybook-addon-code
 
+![NPM](https://img.shields.io/npm/l/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)
+![npm](https://img.shields.io/npm/v/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)
+![OSS Lifecycle](https://img.shields.io/osslifecycle/jls-digital/storybook-addon-code)
+
 This storybook addon provides the ability to display a panel on stories with any
 code you want. It's mostly a wrapper for
 [storybook's syntax highlighter](https://github.com/storybookjs/storybook/tree/main/code/ui/components/src/components/syntaxhighlighter)
@@ -7,14 +12,14 @@ code you want. It's mostly a wrapper for
 
 ## Installation
 
-1. `npm install --save-dev storybook-addon-code`
+1. `npm install --save-dev @florian.dendorfer_jls.ch/storybook-addon-code`
 2. Add `storybook-addon-code` to your storybook's config
 3. Add the `sourceCode` parameter to your stories
 
 ```ts
 // .storybook/main.ts
 const config: StorybookConfig = {
-  addons: ['storybook-addon-code'],
+  addons: ['@florian.dendorfer_jls.ch/storybook-addon-code'],
 };
 ```
 
