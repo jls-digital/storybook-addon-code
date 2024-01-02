@@ -1,6 +1,6 @@
 {
   "name": "@florian.dendorfer_jls.ch/storybook-addon-code",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "This storybook addon provides the ability to display a panel on stories with any code you want.",
   "exports": {
     ".": {
