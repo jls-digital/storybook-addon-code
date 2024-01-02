@@ -12,6 +12,7 @@
     "./package.json": "./package.json"
   },
   "main": "dist/register.js",
+  "module": "dist/register.js",
   "type": "module",
   "files": [],
   "scripts": {
