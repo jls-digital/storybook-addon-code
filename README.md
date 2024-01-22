@@ -10,6 +10,8 @@ code you want. It's mostly a wrapper for
 [storybook's syntax highlighter](https://github.com/storybookjs/storybook/tree/main/code/ui/components/src/components/syntaxhighlighter)
 , which is a wrapper for [prism.js](https://www.npmjs.com/package/prismjs).
 
+![Screenshot of Addon](docs/screenshot_1.png)
+
 ## Installation
 
 1. `npm install --save-dev @florian.dendorfer_jls.ch/storybook-addon-code`
@@ -54,24 +56,29 @@ const meta: Meta<IButtonStory> = {
 
 ## FAQ
 
-Q: When I add a new file to the list of source code, I get an error saying
-`The final argument passed to useMemo changed size between renders.`
+(Click on a question to see the answer.)
+
+<details>
+<summary><b>Q: When I add a new file to the list of source code, I get an error saying
+"The final argument passed to useMemo changed size between renders."</b></summary>
 
 A: No worries, this is an issue with storybook's TabsState component. You can
 simply reload the page and it should work fine.
+</details>
 
-## Contribute
+<details>
+<summary><b>Q: Can I customize the order of my tabs?</b></summary>
 
-Feel free to open issues and pull requests for bugs, feature requests or
-questions. If you want to contribute, please make sure your code is documented
-and linted/formatted.
+A: Yes, the order is determined by the order of the array you pass to the
+`sourceCode` parameter.
+</details>
 
-## Releasing a new version
+## Contributing
 
-1. Make sure you have the latest version of the main branch
-2. Make sure you're logged in to npm with `npm whoami`, otherwise log in with
-`npm login`
-3. Run `npm version <major|minor|patch>` to bump the version and create a new
-commit and tag
-4. Push the new commit and tag with `git push --follow-tags` (can also be set
-via config `git config --global push.followTags true`)
+We encourage you to contribute to this project! Please check out the
+[Contributing guide](CONTRIBUTING.md) for guidelines about how to proceed and
+how to set up your dev environment. Join us!
+
+## License
+
+Storybook-Addon-Code is released under the [MIT License](LICENSE).
