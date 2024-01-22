@@ -14,7 +14,9 @@
   "main": "dist/register.js",
   "module": "dist/register.js",
   "type": "module",
-  "files": [],
+  "files": [
+    "docs/*"
+  ],
   "scripts": {
     "build": "tsup",
     "build:watch": "npm run build -- --watch",
