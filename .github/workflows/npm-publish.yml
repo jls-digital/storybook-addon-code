@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20
+      - run: corepack enable
       - run: pnpm build
       - run: pnpm i --frozen-lockfile
 
@@ -28,6 +29,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+      - run: corepack enable
       - run: pnpm i --frozen-lockfile
       - run: npm publish
         env:
