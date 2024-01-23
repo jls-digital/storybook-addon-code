@@ -52,7 +52,7 @@ const meta: Meta<IButtonStory> = {
 | --- | --- | --- |
 | `name` | The name of the sub tab. Default: index of tab. | `string` |
 | `code` | The code to display | `string` |
-| `language` | The language of the code that should be used for syntax highlighting. Default: 'typescript'. | [Available languages rsh](https://github.com/react-syntax-highlighter/react-syntax-highlighter/blob/HEAD/AVAILABLE_LANGUAGES_HLJS.MD) |
+| `language` | The language of the code that should be used for syntax highlighting. Default: `typescript`. | "jxextra", "jsx", "json", "yml", "md", "bash", "css", "html", "tsc", "typescript", "graphql" |
 
 ## FAQ
 

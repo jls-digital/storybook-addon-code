@@ -46,6 +46,8 @@ can be fixed across all files with `pnpm lint-fix` or `pnpm format-fix` respecti
 
 ## Future feature considerations
 
+- Support all languages from prism/hljs. Storybook's syntax highlighter only uses
+a limited set of languages.
 - Automatic import of source code files
 - Ctrl + click to jump to reference (e.g. in Interface)
 - Button to open code (local file) in editor
