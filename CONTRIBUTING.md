@@ -10,7 +10,8 @@ You'll need the following software installed:
 - [Node.js](https://nodejs.org/en/) (v18 or higher)
 - [pnpm](https://pnpm.io/)
 - [git](https://git-scm.com/)
-- [Visual Studio Code](https://code.visualstudio.com/) (recommended)
+- Some IDE with TypeScript support (e.g. [VS Code
+](https://code.visualstudio.com/))
 
 Then, follow these steps:
 
@@ -18,7 +19,7 @@ Then, follow these steps:
 2. Run `pnpm install`
 3. Run `pnpm build`
 4. In a storybook project, add
-`"@florian.dendorfer_jls.ch/storybook-addon-code": "link:<path_to_cloned_repo>",`
+`"@jls-digital/storybook-addon-code": "link:<path_to_cloned_repo>",`
 to the `dependencies` in `package.json`
 5. Run `pnpm install` in the storybook project
 6. Enable the addon in `.storybook/main.ts` (see example below)
@@ -28,7 +29,7 @@ to the `dependencies` in `package.json`
 const config: StorybookConfig = {
   addons: [
     /* other addons */
-    '@florian.dendorfer_jls.ch/storybook-addon-code'
+    '@jls-digital/storybook-addon-code'
   ],
 };
 ```
@@ -44,7 +45,7 @@ Coding conventions should be enforced by eslint and prettier. You can run the
 linter with `pnpm lint` and the formatter with `pnpm format`. Autofixable errors
 can be fixed across all files with `pnpm lint-fix` or `pnpm format-fix` respectively.
 
-## Future feature considerations
+## Ideas for future features
 
 - Support all languages from prism/hljs. Storybook's syntax highlighter only uses
 a limited set of languages.

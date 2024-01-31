@@ -1,8 +1,8 @@
 # storybook-addon-code
 
 [![NPM](https://img.shields.io/npm/l/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://github.com/jls-digital/storybook-addon-code/blob/main/LICENSE)
-[![npm](https://img.shields.io/npm/v/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://www.npmjs.com/package/@florian.dendorfer_jls.ch/storybook-addon-code)
-[![install size](https://packagephobia.com/badge?p=@florian.dendorfer_jls.ch/storybook-addon-code)](https://packagephobia.com/result?p=@florian.dendorfer_jls.ch/storybook-addon-code)
+[![npm](https://img.shields.io/npm/v/%40florian.dendorfer_jls.ch%2Fstorybook-addon-code)](https://www.npmjs.com/package/@jls-digital/storybook-addon-code)
+[![install size](https://packagephobia.com/badge?p=@jls-digital/storybook-addon-code)](https://packagephobia.com/result?p=@jls-digital/storybook-addon-code)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/jls-digital/storybook-addon-code)](https://github.com/jls-digital/storybook-addon-code)
 
 This storybook addon provides the ability to display a panel on stories with any
@@ -14,14 +14,14 @@ code you want. It's mostly a wrapper for
 
 ## Installation
 
-1. `npm install --save-dev @florian.dendorfer_jls.ch/storybook-addon-code`
+1. `npm install --save-dev @jls-digital/storybook-addon-code`
 2. Add `storybook-addon-code` to your storybook's config
 3. Add the `sourceCode` parameter to your stories
 
 ```ts
 // .storybook/main.ts
 const config: StorybookConfig = {
-  addons: ['@florian.dendorfer_jls.ch/storybook-addon-code'],
+  addons: ['@jls-digital/storybook-addon-code'],
 };
 ```
 
