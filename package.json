@@ -1,0 +1,60 @@
+{
+  "name": "@jls-digital/storybook-addon-code",
+  "version": "1.0.0",
+  "description": "This storybook addon provides the ability to display a panel on stories with any code you want. It's mostly a wrapper for [storybook's syntax highlighter](https://github.com/storybookjs/storybook/tree/main/code/ui/components/src/components/syntaxhighlighter), which is a wrapper for [prism.js](https://www.npmjs.com/package/prismjs).",
+  "exports": {
+    ".": {
+      "node": "./dist/register.js",
+      "require": "./dist/register.js",
+      "import": "./dist/register.js"
+    },
+    "./manager": "./dist/register.js",
+    "./package.json": "./package.json"
+  },
+  "main": "dist/register.js",
+  "module": "dist/register.js",
+  "type": "module",
+  "files": [],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "npm run build -- --watch",
+    "lint": "eslint src/* --ignore-path .gitignore",
+    "lint-fix": "eslint src/ --ignore-path .gitignore --fix",
+    "format": "prettier src/ --check --ignore-path .gitignore",
+    "format-fix": "npm run format --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jls-digital/storybook-addon-code.git"
+  },
+  "keywords": [
+    "storybook",
+    "addon",
+    "code",
+    "source"
+  ],
+  "author": "jls digital ag",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1"
+  },
+  "peerDependencies": {
+    "@storybook/manager": "^7.6.6",
+    "@storybook/preview": "^7.6.6",
+    "@storybook/addons": "^7.6.6",
+    "@storybook/api": "^7.6.6",
+    "@storybook/components": "^7.6.6",
+    "react": "^18.2.0"
+  }
+}
