@@ -3,7 +3,6 @@
 [![NPM](https://img.shields.io/npm/l/%40jls-digital%2Fstorybook-addon-code)](https://github.com/jls-digital/storybook-addon-code/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/%40jls-digital%2Fstorybook-addon-code)](https://www.npmjs.com/package/@jls-digital/storybook-addon-code)
 [![install size](https://packagephobia.com/badge?p=@jls-digital/storybook-addon-code)](https://packagephobia.com/result?p=@jls-digital/storybook-addon-code)
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/jls-digital/storybook-addon-code)](https://github.com/jls-digital/storybook-addon-code)
 
 This storybook addon provides the ability to display a panel on stories with any
 code you want. It's mostly a wrapper for
