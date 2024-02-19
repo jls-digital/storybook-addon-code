@@ -29,7 +29,7 @@ addons.register(ADDON_ID, () => {
       : [];
 
     // Show a message if no valid source code is passed
-    if (preparedFiles.length === 0)
+    if (preparedFiles.length === 0 && active)
       return <div style={{ padding: '1rem' }}>No source code available</div>;
 
     return (
