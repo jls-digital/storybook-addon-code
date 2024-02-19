@@ -1,6 +1,6 @@
 {
   "name": "@jls-digital/storybook-addon-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This storybook addon provides the ability to display a panel on stories with any code you want. It's mostly a wrapper for [storybook's syntax highlighter](https://github.com/storybookjs/storybook/tree/main/code/ui/components/src/components/syntaxhighlighter), which is a wrapper for [prism.js](https://www.npmjs.com/package/prismjs).",
   "exports": {
     ".": {
