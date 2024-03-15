@@ -4,7 +4,7 @@ import { CodePanelProps } from './types';
 
 export default function CodePanel({ sourceFiles }: CodePanelProps) {
   return (
-    <TabsState>
+    <TabsState key={sourceFiles.length + sourceFiles.length}>
       {/* Create a tab for each prepared file */}
       {sourceFiles.map((file, i) => (
         // id is used as the key and title as the tab title by TabsState
