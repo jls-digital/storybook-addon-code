@@ -50,11 +50,11 @@
     "tsup": "^8.0.1"
   },
   "peerDependencies": {
-    "@storybook/manager": "^7.6.6",
-    "@storybook/preview": "^7.6.6",
-    "@storybook/addons": "^7.6.6",
-    "@storybook/api": "^7.6.6",
-    "@storybook/components": "^7.6.6",
-    "react": "^18.2.0"
+    "@storybook/manager": "latest",
+    "@storybook/preview": "latest",
+    "@storybook/addons": "latest",
+    "@storybook/api": "latest",
+    "@storybook/components": "latest",
+    "react": "latest"
   }
 }
