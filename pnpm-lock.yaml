@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@storybook/addons':
     specifier: ^7.6.6
@@ -12,7 +16,7 @@ dependencies:
     version: 7.6.6(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/manager':
     specifier: ^7.6.6
-    version: 7.6.6
+    version: 7.6.17
   '@storybook/preview':
     specifier: ^7.6.6
     version: 7.6.6
@@ -1216,8 +1220,8 @@ packages:
       - react-dom
     dev: false
 
-  /@storybook/manager@7.6.6:
-    resolution: {integrity: sha512-Ga3LcSu/xxSyg+cLlO9AS8QjW+D667V+c9qQPmsFyU6qfFc6m6mVqcRLSmFVD5e7P/o0FL7STOf9jAKkDcW8xw==}
+  /@storybook/manager@7.6.17:
+    resolution: {integrity: sha512-A1LDDIqMpwRzq/dqkbbiza0QI04o4ZHCl2a3UMDZUV/+QLc2nsr2DAaLk4CVL4/cIc5zGqmIcaOTvprx2YKVBw==}
     dev: false
 
   /@storybook/preview-api@7.6.6:
