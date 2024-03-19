@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@storybook/addons':
     specifier: ^7.6.6
@@ -15,7 +19,7 @@ dependencies:
     version: 7.6.6
   '@storybook/preview':
     specifier: ^7.6.6
-    version: 7.6.6
+    version: 7.6.17
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1239,8 +1243,8 @@ packages:
       util-deprecate: 1.0.2
     dev: false
 
-  /@storybook/preview@7.6.6:
-    resolution: {integrity: sha512-Rl+Pom2bNwzc0MdlbFALmvxsbCkbIwlpTZlRZZTh5Ah8JViV9htQgP9e8uwo3NZA2BhjbDLkmnZeloWxQnI5Ig==}
+  /@storybook/preview@7.6.17:
+    resolution: {integrity: sha512-LvkMYK/y6alGjwRVNDIKL1lFlbyZ0H0c8iAbcQkiMoaFiujMQyVswMDKlWcj42Upfr/B1igydiruomc+eUt0mw==}
     dev: false
 
   /@storybook/router@7.6.6:
