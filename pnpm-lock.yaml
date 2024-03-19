@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@storybook/addons':
     specifier: ^7.6.6
@@ -16,10 +12,10 @@ dependencies:
     version: 7.6.17(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/manager':
     specifier: ^7.6.6
-    version: 7.6.17
+    version: 7.6.6
   '@storybook/preview':
     specifier: ^7.6.6
-    version: 7.6.17
+    version: 7.6.6
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1219,8 +1215,8 @@ packages:
       - react-dom
     dev: false
 
-  /@storybook/manager@7.6.17:
-    resolution: {integrity: sha512-A1LDDIqMpwRzq/dqkbbiza0QI04o4ZHCl2a3UMDZUV/+QLc2nsr2DAaLk4CVL4/cIc5zGqmIcaOTvprx2YKVBw==}
+  /@storybook/manager@7.6.6:
+    resolution: {integrity: sha512-Ga3LcSu/xxSyg+cLlO9AS8QjW+D667V+c9qQPmsFyU6qfFc6m6mVqcRLSmFVD5e7P/o0FL7STOf9jAKkDcW8xw==}
     dev: false
 
   /@storybook/preview-api@7.6.17:
@@ -1242,8 +1238,8 @@ packages:
       util-deprecate: 1.0.2
     dev: false
 
-  /@storybook/preview@7.6.17:
-    resolution: {integrity: sha512-LvkMYK/y6alGjwRVNDIKL1lFlbyZ0H0c8iAbcQkiMoaFiujMQyVswMDKlWcj42Upfr/B1igydiruomc+eUt0mw==}
+  /@storybook/preview@7.6.6:
+    resolution: {integrity: sha512-Rl+Pom2bNwzc0MdlbFALmvxsbCkbIwlpTZlRZZTh5Ah8JViV9htQgP9e8uwo3NZA2BhjbDLkmnZeloWxQnI5Ig==}
     dev: false
 
   /@storybook/router@7.6.17:
@@ -4190,3 +4186,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

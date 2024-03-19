@@ -18,3 +18,7 @@ updates:
       storybook:
         patterns:
           - '@storybook/*'
+        update-types:
+          - 'major'
+          - 'minor'
+          - 'patch'
