@@ -38,23 +38,22 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@types/react": "^18.2.46",
-    "eslint": "^8.56.0",
+    "@types/react": "^18.2.67",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.2",
-    "prettier": "^3.1.1",
-    "tsup": "^8.0.1"
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2"
   },
   "peerDependencies": {
-    "@storybook/manager": "latest",
-    "@storybook/preview": "latest",
-    "@storybook/addons": "latest",
-    "@storybook/api": "latest",
-    "@storybook/components": "latest",
-    "react": "latest"
+    "@storybook/addons": "^7.6.17",
+    "@storybook/api": "^7.6.17",
+    "@storybook/components": "^8.0.2",
+    "@storybook/manager": "^8.0.2",
+    "@storybook/preview": "^8.0.2",
+    "react": "^18.2.0"
   }
 }
