@@ -24,6 +24,13 @@ const config: StorybookConfig = {
 };
 ```
 
+### Versions
+
+| Storybook | @jls-digital/storybook-addon-code |
+|:---------:|:---------------------------------:|
+|    8.x    |                2.x                |
+|    7.x    |                1.x                |
+
 ## Usage
 
 In your story files, you can now import code as string (with vite by using the

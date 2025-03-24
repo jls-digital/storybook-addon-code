@@ -1,6 +1,6 @@
 {
   "name": "@jls-digital/storybook-addon-code",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "This storybook addon provides the ability to display a panel on stories with any code you want. It's mostly a wrapper for [storybook's syntax highlighter](https://github.com/storybookjs/storybook/tree/main/code/ui/components/src/components/syntaxhighlighter), which is a wrapper for [prism.js](https://www.npmjs.com/package/prismjs).",
   "exports": {
     ".": {
@@ -21,7 +21,7 @@
     "lint": "eslint src/* --ignore-path .gitignore",
     "lint-fix": "eslint src/ --ignore-path .gitignore --fix",
     "format": "prettier src/ --check --ignore-path .gitignore",
-    "format-fix": "npm run format --write"
+    "format-fix": "prettier src/ --write --ignore-path .gitignore"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,11 @@
     "access": "public"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.8",
+    "@storybook/components": "^8.6.8",
+    "@storybook/manager": "^8.6.8",
+    "@storybook/manager-api": "^8.6.8",
+    "@storybook/preview": "^8.6.8",
     "@types/react": "^18.2.67",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -46,14 +51,11 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "prettier": "^3.2.5",
-    "tsup": "^8.0.2"
+    "react": "^18.3.1",
+    "tsup": "^8.4.0"
   },
   "peerDependencies": {
-    "@storybook/addons": "^7.6.17",
-    "@storybook/api": "^7.6.17",
-    "@storybook/components": "^8.0.2",
-    "@storybook/manager": "^8.0.2",
-    "@storybook/preview": "^8.0.2",
-    "react": "^18.2.0"
-  }
+    "storybook": "^8.3.0"
+  },
+  "packageManager": "pnpm@8.15.9"
 }
