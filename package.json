@@ -51,9 +51,15 @@
   "peerDependencies": {
     "@storybook/addons": "^7.6.17",
     "@storybook/api": "^7.6.17",
-    "@storybook/components": "^8.0.2",
-    "@storybook/manager": "^8.0.2",
-    "@storybook/preview": "^8.0.2",
-    "react": "^18.2.0"
+    "@storybook/components": ">=8 <9",
+    "@storybook/manager": ">=8 <9",
+    "@storybook/preview": ">=8 <9",
+    "react": ">=16"
+  },
+  "packageManager": "pnpm@10.7.0+sha512.6b865ad4b62a1d9842b61d674a393903b871d9244954f652b8842c2b553c72176b278f64c463e52d40fff8aba385c235c8c9ecf5cc7de4fd78b8bb6d49633ab6",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
