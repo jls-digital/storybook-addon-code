@@ -1,5 +1,4 @@
-import { useParameter } from '@storybook/api';
-import { addons, types } from '@storybook/addons';
+import { addons, useParameter, types } from '@storybook/manager-api';
 import { AddonPanel } from '@storybook/components';
 import React from 'react';
 import CodePanel from './Panel';
