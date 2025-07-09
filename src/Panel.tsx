@@ -1,6 +1,6 @@
-import { TabsState, SyntaxHighlighter } from '@storybook/components';
+import { TabsState, SyntaxHighlighter } from 'storybook/internal/components';
 import React from 'react';
-import { CodePanelProps } from './types';
+import type { CodePanelProps } from './types';
 
 export default function CodePanel({ sourceFiles }: CodePanelProps) {
   return (

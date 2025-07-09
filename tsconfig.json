@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "jsx": "react",
     "declaration": true,
     "declarationMap": true,
+    "jsx": "react",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "target": "ESNext"
+    "strict": true,
+    "target": "ESNext",
+    "verbatimModuleSyntax": true
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["dist/**/*.ts"]

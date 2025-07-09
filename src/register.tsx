@@ -1,8 +1,8 @@
-import { addons, useParameter, types } from '@storybook/manager-api';
-import { AddonPanel } from '@storybook/components';
+import { addons, useParameter, types } from 'storybook/manager-api';
+import { AddonPanel } from 'storybook/internal/components';
 import React from 'react';
 import CodePanel from './Panel';
-import { SourceFile } from './types';
+import type { SourceFile } from './types';
 
 const ADDON_ID = 'jb-int/code';
 const PANEL_ID = `${ADDON_ID}/panel`;

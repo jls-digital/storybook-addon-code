@@ -11,6 +11,13 @@ code you want. It's mostly a wrapper for
 
 ![Screenshot of Addon](docs/screenshot_1.png)
 
+## Versions
+
+| Version | Description |
+| ------- | ----------- |
+| 2.0.0  | Migrate to support Storybook v9 |
+| 1.0.0  | Initial release |
+
 ## Installation
 
 1. `npm install --save-dev @jls-digital/storybook-addon-code`
