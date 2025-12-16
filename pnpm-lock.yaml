@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       react:
-        specifier: ^19.1.0
+        specifier: ^19
         version: 19.2.3
       storybook:
-        specifier: '10'
+        specifier: '>=9 <11'
         version: 10.1.9(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
     devDependencies:
       '@types/react':
