@@ -1,23 +1,29 @@
-import { TabsState, SyntaxHighlighter } from 'storybook/internal/components';
-import React from 'react';
+import { TabsView, SyntaxHighlighter } from 'storybook/internal/components';
+import React, { useMemo } from 'react';
 import type { CodePanelProps } from './types';
 
 export default function CodePanel({ sourceFiles }: CodePanelProps) {
-  return (
-    <TabsState key={sourceFiles.length + sourceFiles.length}>
-      {/* Create a tab for each prepared file */}
-      {sourceFiles.map((file, i) => (
-        // id is used as the key and title as the tab title by TabsState
-        <div key={i} id={i.toString()} title={file.name || i.toString()}>
-          <SyntaxHighlighter
-            copyable
-            language={file.language || 'typescript'}
-            showLineNumbers
-          >
-            {file.code}
-          </SyntaxHighlighter>
-        </div>
-      ))}
-    </TabsState>
+  // Create a tab for each prepared file
+  const tabs = useMemo(
+    () =>
+      sourceFiles.map((file, i) => ({
+        id: file.id || `file-${i}`,
+        title: file.name || `File ${i + 1}`,
+        children: (
+          // id is used as the key and title as the tab title by TabsState
+          <div key={i} id={i.toString()} title={file.name || i.toString()}>
+            <SyntaxHighlighter
+              copyable
+              language={file.language || 'typescript'}
+              showLineNumbers
+            >
+              {file.code}
+            </SyntaxHighlighter>
+          </div>
+        ),
+      })),
+    [sourceFiles],
   );
+
+  return <TabsView tabs={tabs} />;
 }
